@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8"> 
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <link href="./css/style.css" rel="stylesheet">
+        <link href="./lib/layer/need/layer.css" rel="stylesheet">
+        <link rel="stylesheet" href="./lib/animate.min.css">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+            <div id="indexPage" class="indexPage animated fadeIn">
+                <p class="log"> 
+                    v4.3  log: 完善卡顿
+                    
+                    <!-- v4.2  log: 洗心革面 -->
+                    <!-- v4.1  log: 优化部分卡顿 -->
+                    <!-- v4.1  log: 修改跳跃问题  -->
+                    <!-- v4  log:解决苹果问题 持续优化ing....  -->
+                    <!-- v3.1  log:完善一点卡顿问题 发现更多bug了....  -->
+                    <!-- v3.0  log:完善一点滑动问题  增加本地排行榜分数记录  -->
+                    <!-- v0.2.1  log:修复得分问题  优化部分卡顿 -->
+                    <!-- v0.2  log:优化代码 -->
+
+                </p>
+
+                <span class="startBtn animated shake ">
+                    <!-- 开始游戏 -->
+                </span>
+
+                <div class="tousu animated bounceInDown">
+                    <span>投诉</span>
+                </div>
+                
+                <div class="shuoming ">
+                    <img class=" animated bounceInDown " src="./img/qi.png" alt="">
+                </div>
+
+                <div class="tit">
+                    <img  class="animated bounceInDown" src="./img/tit.png" alt="">
+                </div>
+                  <!-- <div class="ranking">
+                    <span class="ranking-btn">排行榜</span>
+                  </div> -->
+            </div>
+
+            <div id="game"  class="game">
+                <!-- 动画演示 -->
+                    <div class="shadow">
+                            <div class="upAni"> </div>
+                            <div class="leftAni"> </div>
+                            <div class="rightAni"> </div>
+                            <div class="t">3</div>
+                    </div>
+
+                    <!-- 顶部信息 -->
+                    <div class="top">
+                            <div class="head-img">
+                                <img src="./img/jump.png" alt="">
+                            </div>
+                            <div class="score"> 
+                                <span class="score-label">得分</span><br/>
+                                <span class="score-num">0</span>
+                            </div>
+                            <div class="timer">
+                                <span class="timer-label">剩余时间</span><br/>
+                                <span class="timer-num">-</span>s
+                            </div>
+                    </div>
+
+                    <!-- zan -->
+                    <div id="good">
+                        <span></span>
+                    </div>
+
+                    <!-- 小人 -->
+                    <div class="per">
+                        <img src="./img/left.png" alt="">
+                    </div>
+                    
+                    <!-- 糖果容器 -->
+                    <div class="sweetContainer"></div>
+                    <!-- <div class="sweet">
+                        <span>我是糖果</span>
+                    </div> -->
+            </div>
+    </body>
+</html>
+<script src="./lib/fiexSize.js"></script>
+<script src="./lib/jquery-3.2.1.min.js"></script>
+<script src="./lib/layer/layer.js"></script>
+<script src="./js/game.js"></script>
